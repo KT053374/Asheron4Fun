@@ -21,11 +21,11 @@ SELECT
   `a4f_ace_auth`.`account` AS `a`
   INNER JOIN `a4f_ace_auth`.`accesslevel` AS `al`
     ON (`a`.`accessLevel` = `al`.`level`)
-  INNER JOIN `a4f_ace_shard`.`character` AS c
+  INNER JOIN `a4f_ace_shard`.`character` AS `c`
      ON (`a`.`accountId` = `c`.`account_Id`)
   INNER JOIN `a4f_ace_shard`.`biota_properties_int` AS `bpi`
     ON (`c`.`id` = `bpi`.`object_Id`)
-     WHERE bpi.`type` = 25
+     WHERE `bpi`.`type` = 25
      -- and a.`accountName` = "Galli" 
      -- and c.`name` = "Klineman"
      -- ORDER BY `a`.`last_Login_Time` -- DESC
