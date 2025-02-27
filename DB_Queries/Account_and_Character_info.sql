@@ -1,5 +1,5 @@
 /* 
-This script will pull back friendly formatted information for accounts and characters tied to those accounts.
+This query will pull back friendly formatted information for accounts and characters tied to those accounts.
 1. If you want to search by a particular account name, uncomment the AND statement for `accountName` and change the string you are searching for.
 2. If you want to search by player/character name, uncomment the AND statement for `name` and change the string you are searching for.
 3. If you want to show account listed in ascending order based on the last login date for the account, uncomment the ORDER BY statement.
