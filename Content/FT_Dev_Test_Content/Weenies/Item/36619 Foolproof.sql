@@ -10,7 +10,7 @@ VALUES (36619,   1,        128) /* ItemType - Misc */
      , (36619,  11,          1) /* MaxStackSize */
      , (36619,  12,          1) /* StackSize */
      , (36619,  13,          5) /* StackUnitEncumbrance */
-     , (36619,  15,         30) /* StackUnitValue */
+     , (36619,  15,         10) /* StackUnitValue */
      , (36619,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (36619,  19,         10) /* Value */
      , (36619,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
